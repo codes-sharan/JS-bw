@@ -8,7 +8,7 @@ const employees = [
   { name: "George Washington", annualIncome: 900000 },
   { name: "Hannah Montana", annualIncome: 2100000 },
   { name: "Ian Fleming", annualIncome: 600000 },
-  { name: "Julia Roberts", annualIncome: 2700000 },
+  { name: "Julia Roberts", annualIncome: 4500000 },
 ];
 
 for (employee of employees) {
@@ -51,11 +51,11 @@ for (employee of employees) {
   employee.annualNetSalary = employee.annualIncome - employee.yearlyTax;
   employee.monthlyNetSalary = employee.annualNetSalary / 12;
 
-  console.log(`Name ${employee.name}
-        Annual Income: Npr: ${employee.annualIncome} 
-        Monthly Tax: Npr ${employee.monthlyTax}
-        Yearly Tax: Npr ${employee.yearlyTax}
-        Monthly Net Salary: Npr ${employee.monthlyNetSalary}
-        Annual Net Salary: Npr ${employee.annualNetSalary}
-        ------------------------`);
+  console.log(`Name: ${employee.name}
+    Annual Income: Npr: ${employee.annualIncome} 
+    Monthly Tax: Npr ${employee.monthlyTax}
+    Yearly Tax: Npr ${employee.yearlyTax}
+    Monthly Net Salary: Npr ${employee.monthlyNetSalary}
+    Annual Net Salary: Npr ${employee.annualNetSalary}
+  ------------------------`);
 }

@@ -16,7 +16,7 @@ User.prototype.getName = function () {
   return this.name;
 };
 
-const user = new User("Sandesh Bhattarai", "sandesh@broadwayinfosys.com");
+const user = new User("Hari Sharma", "hari@gmail.com");
 
-// user.name = "Sandesh Bhattarai"
+// user.name = "Hari Sharma"
 console.log(user.getName());

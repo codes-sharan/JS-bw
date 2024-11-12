@@ -10,7 +10,7 @@ class Customer extends User {
 }
 
 const customerObj = new Customer();
-customerObj.name = "Sandesh";
+customerObj.name = "Hari";
 console.log(customerObj);
 
 class Seller extends User {
@@ -22,7 +22,7 @@ const sellerObj = new Seller();
 console.log(sellerObj);
 
 // const customerObj = new Customer();
-// customerObj.name = "Sandesh";
+// customerObj.name = "Hari";
 // console.log(customerObj);
 
 class Student extends Division {

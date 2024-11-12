@@ -38,14 +38,14 @@ class User {
 }
 
 const userObj = new User(
-  "Sandesh Bhattarai",
-  "sandesh@broadwayinfosys.com",
+  "Hari Sharma",
+  "hari@gmail.com",
   "Kathmandu",
   9876543210,
   "Male",
   "1991-01-01"
 );
-// userObj.setEmail("sandesh@broadwayinfosys.com")
+// userObj.setEmail("hari@gmail.com")
 console.log(userObj);
 // console.log(userObj.getEmail())
 

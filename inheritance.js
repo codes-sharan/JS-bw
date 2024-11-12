@@ -14,7 +14,7 @@ class Customer extends User {
 }
 
 const customerObj = new Customer();
-customerObj.name = "Sandesh";
+customerObj.name = "Hari";
 console.log(customerObj);
 
 class Seller extends User {
@@ -56,8 +56,8 @@ class Student extends DivisionCalculation {
 }
 
 const std = new Student();
-std.name = "Sandesh Bhattarai";
-std.email = "sandesh@broadwayinfosys.com";
+std.name = "Hari Sharma";
+std.email = "hari@gmail.com";
 std.marksObt = 123;
 std.getPercentage();
 std.getDivision();

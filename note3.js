@@ -24,3 +24,14 @@ console.log(sellerObj);
 // const customerObj = new Customer();
 // customerObj.name = "Sandesh";
 // console.log(customerObj);
+
+class Student extends Division {
+  name;
+  email;
+  marksObtained;
+}
+
+class Division {
+  percentage;
+  divison;
+}
